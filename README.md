@@ -1,5 +1,11 @@
 # 説明
-家計簿メモシステム
+家計簿メモシステム。商品名、値段、日付を登録可能で、削除も可能。削除の際には確認画面を表示する。<br>
+`yarn start`<br>
+で実行する。<br>
+
+
+# 実行例
+![](picture2.png)
 
 # メモ
 ## Getting Started with Create React App
