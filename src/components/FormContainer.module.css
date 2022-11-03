@@ -1,0 +1,27 @@
+.container {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+    background-color: rgb(242, 200, 200);
+    padding: 20px 0px;
+}
+
+.invalid {
+    background-color: rgb(254, 155, 155);
+    border: 2px;
+    border-color: rgb(172, 59, 18);
+    color: rgb(252, 33, 33);
+}
+
+.container input {
+    height: 32px;
+    width: 300px;
+    border-radius: 4px;
+    border: none;
+}
+
+.container button {
+    margin-top: 24px;
+}

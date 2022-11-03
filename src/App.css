@@ -1,0 +1,110 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  height: 88px;
+  width: 100%;
+  background-color: rgb(157, 186, 240);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title-container {
+  height: 144px;
+  width: 500px;
+  background-color: rgb(128, 156, 208);
+  border-radius: 8px;
+  padding: 16px 16px;
+  margin-top: 8px;
+}
+
+input {
+  height: 22px;
+  width: 200px;
+}
+
+.container ul {
+  list-style: none;
+}
+
+.list-container {
+  background-color: rgb(231, 242, 242);
+  margin-top: 16px;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+
+}
+
+.list-card {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  background-color: rgb(208, 221, 237);
+  width: 300px;
+  margin-top: 8px;
+  padding: 20px 20px;
+}
+
+.list-card.long{
+  background-color: rgb(235, 192, 190);
+}
+
+.container button {
+  height: 44px;
+  width: 200px;
+  margin-top: 8px;
+}
+
+.container input {
+  width: 300px;
+  margin-top: 20px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
